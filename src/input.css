@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: myfont;
+    src: url(../font/Vazir-Thin.ttf);
+}
+#btn{
+    font-family: myfont;
+}
+li a{
+    font-family: myfont;
+}
+input{
+    direction: ltr;
+}
+.title{
+    font-family: myfont;
+    font-size:x-large;
+    font-weight:bolder;
+}
+#cap{
+    font-family: myfont;
+}
+.custom-slider { width: 100%; height: 300px; }
+.custom-slide {
+    display: flex; align-items: center; justify-content: center;
+    background-size: cover; background-position: center;
+    position: relative; color: white;
+}
+.custom-content {
+    position: absolute; left: 10%; top: 50%; transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 10px;
+}
+.custom-content1{
+    position: absolute; left:32%; top:65%; transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 10px;
+}
+.custom-content h2 { margin: 0 0 10px; font-size: 24px; }
+.custom-button { background: #ff4081; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+.custom-pagination { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); }

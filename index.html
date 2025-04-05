@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="ادکلن,عطر,فروشگاه عطر و ادکلن">
+    <meta name="description" content="معتبر ترین فروشگاه عطر و ادکلن">
+    <title>Nira perfume</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="icon" href="./images/perfume.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+<body class="justify-center items-center h-screen">
+    <div class="grid grid-cols-12 shadow shadow-gray-200 bg-gray-100">
+        <div class="col-span-2 bg-gray-100 w-full h-[65px]">
+            <img src="./images/logo2.png" alt="" class="w-[150px] h-auto float-right rounded-xl mt-[7.5px] mr-[40px]">
+        </div>
+        <div class="col-span-3 bg-gray-100">
+            <nav>
+                <ul class="list-none m-0 pt-4 flex gap-6 font-bold text-purple-700">
+                    <li><a href="#" class="hover:bg-gray-200 rounded-lg p-2">حساب کاربری</a></li>
+                    <li><a href="#" class="hover:bg-gray-200 rounded-lg p-2">محصولات</a></li>
+                    <li><a href="#" class="hover:bg-gray-200 rounded-lg p-2">تماس با ما</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="relative col-span-5 pt-3.5 pr-[150px]">
+            <!-- آیکون ذره بین -->
+            <div class="absolute inset-y-0 left-3 bottom-0.5 pl-[145px] flex items-center cursor-pointer">
+                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+            <!-- اینپوت جستجو -->
+            <input type="text" id="searchInput" placeholder="Search..."
+                class="w-[265px] pl-9 pr-4 py-1 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm">
+                <div id="result" class="mt-1 text-gray-700"></div>
+        </div>
+
+        <div class="col-span-2 bg-gray-100 text-center pt-4">
+            <button id="btn" class="w-[100px] justify-center bg-purple-800 text-violet-50 rounded-full m-0.5 p-0.5 text-center hover:bg-pink-50 hover:text-pink-800 hover:shadow hover:shadow-pink-800 cursor-pointer"><a href="#">ثبت نام</a></button>
+        </div>
+    </div>
+
+    <div class="w-full">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide flex justify-center items-center bg-gradient-to-r from-gray-200 to-gray-300 m-4 p-2 rounded-lg shadow-lg cursor-pointer">
+                    <img src="./images/2.png" alt="تصویر ۱" class="w-[500px] h-[500px] object-cover rounded-lg">
+                </div>
+                <div class="swiper-slide flex justify-center items-center bg-gradient-to-r from-gray-200 to-gray-300 m-4 p-2 rounded-lg shadow-lg cursor-pointer">
+                    <img src="./images/3.png" alt="تصویر ۲" class="w-[500px] h-[500px] object-cover rounded-lg">
+                </div>
+                <div class="swiper-slide flex justify-center items-center bg-gradient-to-r from-gray-200 to-gray-300 m-4 p-2 rounded-lg shadow-lg cursor-pointer">
+                    <img src="./images/4.png" alt="تصویر ۳" class="w-[500px] h-[500px] object-cover rounded-lg">
+                </div>
+                <div class="swiper-slide flex justify-center items-center bg-gradient-to-r from-gray-200 to-gray-300 m-4 p-2 rounded-lg shadow-lg cursor-pointer">
+                    <img src="./images/5.png" alt="تصویر ۴" class="w-[500px] h-[500px] object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h1 class="title pr-8 mt-12 w-full">ادکلن های زنانه</h1>
+    <div class="grid grid-cols-4 pt-6 h-[300px] place-items-center">
+        <div class="col-span-1 border-l-2 pl-10 cursor-pointer">
+            <img src="./images/7.png" alt="" class="object-cover w-[200px] h-[200px]">
+            <p id="cap">ادکلن ایو سن لورن لیبر اینتنس</p>
+            <h1 class="font-bold pt-2">800,000 تومان </h1>
+        </div>
+        <div class="col-span-1 border-l-2 pl-20 cursor-pointer">
+            <img src="./images/8.png" alt="" class="object-cover w-[200px] h-[200px] pb-4">
+            <p id="cap">ادکلن ژان پل گوتیه سو اسکندال</p>
+            <h1 class="font-bold pt-2">3,000,000 تومان</h1>
+        </div>
+        <div class="col-span-1 border-l-2 pl-16 cursor-pointer">
+            <img src="./images/9.png" alt="" class="object-cover w-[200px] h-[200px]">
+            <p id="cap">ادکلن وانیلا سکس</p>
+            <h1 class="font-bold pt-2">5,000,000 تومان</h1>
+        </div>
+        <div class="col-span-1 pl-12 cursor-pointer">
+            <img src="./images/10.png" alt="" class="object-cover w-[200px] h-[200px] pb-4">
+            <p id="cap">ادکلن ایفوریا(یوفوریا کالوین کلین)</p>
+            <h1 class="font-bold pt-2">2,000,000 تومان</h1>
+        </div>
+    </div>
+
+    <h1 class="title pr-8 mt-14 w-full">ادکلن های مردانه</h1>
+    <div class="grid grid-cols-4 pt-6 h-[300px] place-items-center">
+        <div class="col-span-1 border-l-2 pl-10 cursor-pointer">
+            <img src="./images/11.png" alt="" class="object-cover w-[200px] h-[200px] pb-4">
+            <p id="cap">ادکلن کرید اونتوس</p>
+            <h1 class="font-bold pt-2">2,000,000 تومان </h1>
+        </div>
+        <div class="col-span-1 border-l-2 pl-20 cursor-pointer">
+            <img src="./images/12.png" alt="" class="object-cover w-[200px] h-[200px] pb-4">
+            <p id="cap">ادکلن اورتو پاریسی مدل مگاماره</p>
+            <h1 class="font-bold pt-2">700,000 تومان</h1>
+        </div>
+        <div class="col-span-1 border-l-2 pl-16 cursor-pointer">
+            <img src="./images/13.png" alt="" class="object-cover w-[200px] h-[200px] pb-4">
+            <p id="cap">ادکلن بلوشنل </p>
+            <h1 class="font-bold pt-2">800,000 تومان</h1>
+        </div>
+        <div class="col-span-1 pl-12 cursor-pointer">
+            <img src="./images/14.png" alt="" class="object-cover w-[200px] h-[200px] pt-3">
+            <p id="cap">ادکلن دیور هوم اینتنس</p>
+            <h1 class="font-bold pt-2">4,000,000 تومان</h1>
+        </div>
+    </div>
+
+
+    <div class="swiper custom-slider object-cover mt-20 rounded-full">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide custom-slide" style="background-image: url('./images/15.png')">
+                <div class="custom-content1">
+                    <h2 class="mb-2">محصولات تخفیف 40%</h2>
+                    <button class="custom-button rounded-full">مشاهده و خرید</button>
+                </div>
+            </div>
+            <div class="swiper-slide custom-slide" style="background-image: url('./images/17.png')">
+                <div class="custom-content">
+                    <h2>جدیدترین عطرها </h2>
+                    <button class="custom-button rounded-full">مشاهده محصولات</button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination custom-pagination"></div>
+    </div>
+
+
+    <footer class="mt-32 ">
+        <div class="bg-gray-300 h-[300px]">
+            <img src="./images/wave(1).svg" alt="" class="inset-0 bg-rose-500 mix-blend-multiply opacity-90">
+            
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3, 
+            spaceBetween: 10, 
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500, 
+                disableOnInteraction: false, 
+            },
+        });
+        var swiper = new Swiper(".custom-slider", {
+            loop: true,
+            pagination: { el: ".custom-pagination", clickable: true },
+            autoplay: { delay: 3000 },
+        });
+    </script>
+
+</body>
+</html>
