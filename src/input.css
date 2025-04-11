@@ -38,3 +38,7 @@ input{
 .custom-content h2 { margin: 0 0 10px; font-size: 24px; }
 .custom-button { background: #ff4081; color: white; padding: 10px 20px; border: none; cursor: pointer; }
 .custom-pagination { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); }
+
+footer{
+    font-family: myfont;
+}
