@@ -2,10 +2,10 @@
     font-family: 'IRANSansWeb';
     font-style: normal;
     font-weight: normal;
-    src: url('./font/iranyekanwebregular(fanum).eot'),
-       url('./font/iranyekanwebregular(fanum).woff2') format('woff2'), 
-       url('./font/iranyekanwebregular(fanum).woff') format('woff'), 
-       url('./font/iranyekanwebregular(fanum).ttf') format('truetype');
+    src: url('../font/iranyekanwebregular(fanum).eot'),
+       url('../font/iranyekanwebregular(fanum).woff2') format('woff2'), 
+       url('../font/iranyekanwebregular(fanum).woff') format('woff'), 
+       url('../font/iranyekanwebregular(fanum).ttf') format('truetype');
   }
   
   
