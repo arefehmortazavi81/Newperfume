@@ -20,7 +20,7 @@ input{
 }
 #cap{
     font-family: myfont;
-    font-size: small;
+    font-size:medium;
 }
 .custom-slider { width: 100%; height: 300px; }
 .custom-slide {
@@ -48,5 +48,10 @@ input{
 }
 i{
     font-size:xx-large;
-    
+}
+
+@media only screen and (max-width:768px) {
+    #cap{
+        font-size: small;
+    }
 }
