@@ -184,7 +184,7 @@
     font-weight: 500;
   }
   
-  @media only screen and (max-width: 564px) {
+  @media only screen and (max-width:768px) {
     .wrapper {
       padding: 10px;
     }
